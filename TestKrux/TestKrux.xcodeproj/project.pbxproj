@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1558F7CB1003C5DB6C13EB9F /* Pods_TestKrux.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F04441401B2021C441095F6 /* Pods_TestKrux.framework */; };
 		FDE6838A26CF19050070C3FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE6838926CF19050070C3FF /* AppDelegate.swift */; };
 		FDE6838C26CF19050070C3FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE6838B26CF19050070C3FF /* SceneDelegate.swift */; };
 		FDE6838E26CF19050070C3FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDE6838D26CF19050070C3FF /* ViewController.swift */; };
@@ -18,8 +19,6 @@
 		FDE683CE26CF1D660070C3FF /* AppTrackingTransparency.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE683CD26CF1D660070C3FF /* AppTrackingTransparency.framework */; };
 		FDE683D026CF1D6B0070C3FF /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE683CF26CF1D6B0070C3FF /* SystemConfiguration.framework */; };
 		FDE683D226CF1D730070C3FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE683D126CF1D730070C3FF /* Foundation.framework */; };
-		FDE683D826CF1DF80070C3FF /* SDKKruxEncapsulation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE683C526CF1CB40070C3FF /* SDKKruxEncapsulation.framework */; };
-		FDE683D926CF1DF80070C3FF /* SDKKruxEncapsulation.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FDE683C526CF1CB40070C3FF /* SDKKruxEncapsulation.framework */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,7 +28,6 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FDE683D926CF1DF80070C3FF /* SDKKruxEncapsulation.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -37,6 +35,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		104B2161165827C78E65F528 /* Pods-TestKrux.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKrux.debug.xcconfig"; path = "Target Support Files/Pods-TestKrux/Pods-TestKrux.debug.xcconfig"; sourceTree = "<group>"; };
+		9F04441401B2021C441095F6 /* Pods_TestKrux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TestKrux.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA1E9CB9F99257A953030BE1 /* Pods-TestKrux.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestKrux.release.xcconfig"; path = "Target Support Files/Pods-TestKrux/Pods-TestKrux.release.xcconfig"; sourceTree = "<group>"; };
 		FDE6838626CF19050070C3FF /* TestKrux.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestKrux.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDE6838926CF19050070C3FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FDE6838B26CF19050070C3FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,7 +46,6 @@
 		FDE6839226CF19060070C3FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FDE6839526CF19060070C3FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FDE6839726CF19060070C3FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FDE683C526CF1CB40070C3FF /* SDKKruxEncapsulation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDKKruxEncapsulation.framework; sourceTree = "<group>"; };
 		FDE683C926CF1D5C0070C3FF /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 		FDE683CB26CF1D610070C3FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FDE683CD26CF1D660070C3FF /* AppTrackingTransparency.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppTrackingTransparency.framework; path = System/Library/Frameworks/AppTrackingTransparency.framework; sourceTree = SDKROOT; };
@@ -60,22 +60,32 @@
 			files = (
 				FDE683D226CF1D730070C3FF /* Foundation.framework in Frameworks */,
 				FDE683D026CF1D6B0070C3FF /* SystemConfiguration.framework in Frameworks */,
-				FDE683D826CF1DF80070C3FF /* SDKKruxEncapsulation.framework in Frameworks */,
 				FDE683CE26CF1D660070C3FF /* AppTrackingTransparency.framework in Frameworks */,
 				FDE683CC26CF1D610070C3FF /* UIKit.framework in Frameworks */,
 				FDE683CA26CF1D5C0070C3FF /* AdSupport.framework in Frameworks */,
+				1558F7CB1003C5DB6C13EB9F /* Pods_TestKrux.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2AD8B50D1637AAC8774609CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				104B2161165827C78E65F528 /* Pods-TestKrux.debug.xcconfig */,
+				BA1E9CB9F99257A953030BE1 /* Pods-TestKrux.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		FDE6837D26CF19050070C3FF = {
 			isa = PBXGroup;
 			children = (
 				FDE6838826CF19050070C3FF /* TestKrux */,
 				FDE6838726CF19050070C3FF /* Products */,
 				FDE683C826CF1D5B0070C3FF /* Frameworks */,
+				2AD8B50D1637AAC8774609CD /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -90,7 +100,6 @@
 		FDE6838826CF19050070C3FF /* TestKrux */ = {
 			isa = PBXGroup;
 			children = (
-				FDE683C526CF1CB40070C3FF /* SDKKruxEncapsulation.framework */,
 				FDE6838926CF19050070C3FF /* AppDelegate.swift */,
 				FDE6838B26CF19050070C3FF /* SceneDelegate.swift */,
 				FDE6838D26CF19050070C3FF /* ViewController.swift */,
@@ -110,6 +119,7 @@
 				FDE683CD26CF1D660070C3FF /* AppTrackingTransparency.framework */,
 				FDE683CB26CF1D610070C3FF /* UIKit.framework */,
 				FDE683C926CF1D5C0070C3FF /* AdSupport.framework */,
+				9F04441401B2021C441095F6 /* Pods_TestKrux.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -121,10 +131,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDE6839A26CF19060070C3FF /* Build configuration list for PBXNativeTarget "TestKrux" */;
 			buildPhases = (
+				B4A5EBA7FDF0A898EF6E7CCF /* [CP] Check Pods Manifest.lock */,
 				FDE6838226CF19050070C3FF /* Sources */,
 				FDE6838326CF19050070C3FF /* Frameworks */,
 				FDE6838426CF19050070C3FF /* Resources */,
 				FDE683DA26CF1DF80070C3FF /* Embed Frameworks */,
+				151969F6C3BEAD64B08AB34E /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -179,6 +191,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		151969F6C3BEAD64B08AB34E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestKrux/Pods-TestKrux-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TestKrux/Pods-TestKrux-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TestKrux/Pods-TestKrux-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4A5EBA7FDF0A898EF6E7CCF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TestKrux-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		FDE6838226CF19050070C3FF /* Sources */ = {
@@ -331,6 +385,7 @@
 		};
 		FDE6839B26CF19060070C3FF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 104B2161165827C78E65F528 /* Pods-TestKrux.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -358,6 +413,7 @@
 		};
 		FDE6839C26CF19060070C3FF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BA1E9CB9F99257A953030BE1 /* Pods-TestKrux.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

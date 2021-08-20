@@ -1,0 +1,16 @@
+PODS:
+  - SDKKruxEncapsulation (4.5.1)
+
+DEPENDENCIES:
+  - SDKKruxEncapsulation (from `../`)
+
+EXTERNAL SOURCES:
+  SDKKruxEncapsulation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SDKKruxEncapsulation: 5bc3c82f39499c0095b6ee6ddb704ab0b53855db
+
+PODFILE CHECKSUM: 2f9e975a9d89ed4bf8f948f77b388d8a40288c78
+
+COCOAPODS: 1.10.1

@@ -1,0 +1,28 @@
+{
+  "name": "SDKKruxEncapsulation",
+  "version": "4.5.1",
+  "summary": "iOSKruxLibUniversal encapsulation.",
+  "description": "iOSKruxLibUniversal encapsulation",
+  "homepage": "https://github.com/HelioMesquita/StaticToDynamicFramework",
+  "authors": {
+    "Helio Mesquita": "helio.mesquitaios@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/HelioMesquita/StaticToDynamicFramework.git",
+    "tag": "4.5.1"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "pod_target_xcconfig": {
+    "ONLY_ACTIVE_ARCH": "YES"
+  },
+  "vendored_frameworks": "SDKKruxEncapsulation.framework",
+  "frameworks": [
+    "AdSupport",
+    "Foundation",
+    "SystemConfiguration",
+    "AppTrackingTransparency",
+    "UIKit"
+  ]
+}

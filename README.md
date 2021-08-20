@@ -12,7 +12,7 @@ Steps
         1. AdSupport
         2. Foundation
         3. SystemConfiguration
-        4. AppTrackingTransparenci
+        4. AppTrackingTransparency
         5. UIKit
 5. I used this simple approach to generate the fat binary (https://medium.com/@hassanahmedkhan/a-noobs-guide-to-creating-a-fat-library-for-ios-bafe8452b84b)
 6. Add Framework inside a test project
