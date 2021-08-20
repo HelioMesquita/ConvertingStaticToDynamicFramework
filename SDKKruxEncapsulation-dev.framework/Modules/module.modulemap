@@ -1,0 +1,6 @@
+framework module SDKKruxEncapsulation {
+  umbrella header "SDKKruxEncapsulation.h"
+
+  export *
+  module * { export * }
+}
