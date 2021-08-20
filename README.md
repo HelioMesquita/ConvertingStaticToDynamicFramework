@@ -8,12 +8,12 @@ Steps
 2. Copy Binary
 3. Copy Headers and let them public
 4. Add other link flags “-all_load”
-* This with fail to compile, because it is missing libraries when compile, then add:
-* AdSupport
-* Foundation
-* SystemConfiguration
-* AppTrackingTransparenci
-* UIKit
+    1. This with fail to compile, because it is missing libraries when compile, then add:
+        1. AdSupport
+        2. Foundation
+        3. SystemConfiguration
+        4. AppTrackingTransparenci
+        5. UIKit
 5. I used this simple approach to generate the fat binary
 * https://medium.com/@hassanahmedkhan/a-noobs-guide-to-creating-a-fat-library-for-ios-bafe8452b84b
 6. Add Framework inside a test project
