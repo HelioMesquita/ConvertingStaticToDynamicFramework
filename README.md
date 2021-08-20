@@ -20,17 +20,12 @@ Steps
     2. Change the framework to embed
 7. Enjoy :) 
 
-Observation: I opened the binary because I cannot let a public header from static framework 
+Observation: I opened the binary because I cannot let a public header from static framework  
 
-Articles used to learn about this theme
-https://medium.com/@hassanahmedkhan/a-noobs-guide-to-creating-a-fat-library-for-ios-bafe8452b84b
-
-https://konsole.zendesk.com/hc/en-us/articles/219986988-iOS-SDK-Implementation-Guide
-
-https://pewpewthespells.com/blog/convert_static_to_dynamic.html
-
-https://developer.apple.com/library/archive/qa/qa1490/_index.html
-
-https://medium.com/5-minute-break-while-coding/creating-swift-framework-with-private-objective-c-members-the-good-the-bad-and-the-ugly-4d726386644b
-
-https://web.archive.org/web/20200213075206/http:/nsomar.com/modular-framework-creating-and-using-them/
+Articles used to learn about this theme  
+- https://medium.com/@hassanahmedkhan/a-noobs-guide-to-creating-a-fat-library-for-ios-bafe8452b84b
+- https://konsole.zendesk.com/hc/en-us/articles/219986988-iOS-SDK-Implementation-Guide
+- https://pewpewthespells.com/blog/convert_static_to_dynamic.html
+- https://developer.apple.com/library/archive/qa/qa1490/_index.html
+- https://medium.com/5-minute-break-while-coding/creating-swift-framework-with-private-objective-c-members-the-good-the-bad-and-the-ugly-4d726386644b
+- https://web.archive.org/web/20200213075206/http:/nsomar.com/modular-framework-creating-and-using-them/
