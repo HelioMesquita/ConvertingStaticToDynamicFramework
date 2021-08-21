@@ -1,4 +1,4 @@
-# Converting Static Framework to Dynamic Framework for iOS and Generate framework or xcframework
+# Converting Static Framework to Dynamic Framework for iOS and Generate .framework or .xcframework
 
 Using static libraries can be a problem when you are creating awesome products that depends on it. This steps and articles can help if you are having the same issues about encapsulation/using static libraries to distribute them dynamically.  
 
