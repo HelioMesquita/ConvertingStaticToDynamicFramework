@@ -9,8 +9,9 @@
 /* Begin PBXAggregateTarget section */
 		06B87A7FF96BE151357D6C1F86F16C7F /* SDKKruxEncapsulation */ = {
 			isa = PBXAggregateTarget;
-			buildConfigurationList = B5B7C4C5F93CBB419F566F281016B0F4 /* Build configuration list for PBXAggregateTarget "SDKKruxEncapsulation" */;
+			buildConfigurationList = DFB9BC7C5B423F96EDF0D80940948B14 /* Build configuration list for PBXAggregateTarget "SDKKruxEncapsulation" */;
 			buildPhases = (
+				BF02585A49D18B447B9AAE09277FCEA4 /* [CP] Copy XCFrameworks */,
 			);
 			dependencies = (
 			);
@@ -37,21 +38,22 @@
 /* Begin PBXFileReference section */
 		0E7F942843CFBED12D669100AD9F22B4 /* Pods-TestKrux-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TestKrux-frameworks.sh"; sourceTree = "<group>"; };
 		17E49289C5C4DA5C0089F749043711D3 /* Pods-TestKrux-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestKrux-acknowledgements.plist"; sourceTree = "<group>"; };
-		2D96D57049CB00180FAA4A3BF97BF28C /* SDKKruxEncapsulation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SDKKruxEncapsulation.framework; sourceTree = "<group>"; };
 		3714FC304840467CF248B285ABFB988C /* Pods-TestKrux.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestKrux.debug.xcconfig"; sourceTree = "<group>"; };
 		3CB940B6B25569285B78140213847BAD /* Pods-TestKrux-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TestKrux-Info.plist"; sourceTree = "<group>"; };
-		4F125A52D1FA02C14C379F4AAA2F07E4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		5D14C81DD34BD697F2FAE81B4159C4F8 /* Pods-TestKrux.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TestKrux.release.xcconfig"; sourceTree = "<group>"; };
-		63E86FC72B2ADFCAD5D1166A261C73CB /* SDKKruxEncapsulation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SDKKruxEncapsulation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		649668BBE61F1749F23E8FBE22957A60 /* Pods-TestKrux.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-TestKrux.modulemap"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		74954D77236D4CAF6E3CC4BDB09370D1 /* SDKKruxEncapsulation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDKKruxEncapsulation.release.xcconfig; sourceTree = "<group>"; };
+		7496821C206AB6957AB05FD38028A101 /* SDKKruxEncapsulation.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDKKruxEncapsulation.release.xcconfig; sourceTree = "<group>"; };
+		74C5776B3005BAF286F94DD9DFECA863 /* SDKKruxEncapsulation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = SDKKruxEncapsulation.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		7AABB356A5CC294ED120B315F977251B /* SDKKruxEncapsulation.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = SDKKruxEncapsulation.xcframework; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A27F60DC17FAD26765BB09FB7739393C /* SDKKruxEncapsulation-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "SDKKruxEncapsulation-xcframeworks.sh"; sourceTree = "<group>"; };
+		AAFBDF5A48BE10CA63A77DC7DB72F7FF /* SDKKruxEncapsulation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDKKruxEncapsulation.debug.xcconfig; sourceTree = "<group>"; };
 		B7C0F95ABD57972BD8090740FAA8BCB7 /* Pods_TestKrux.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_TestKrux.framework; path = "Pods-TestKrux.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2B1074E9E6D43C8D2D7FC50B00DC1C /* Pods-TestKrux-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TestKrux-umbrella.h"; sourceTree = "<group>"; };
 		BDEC3B57C5C90296CB6FF12DBBE4E617 /* Pods-TestKrux-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TestKrux-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE33AA56B23ADB7A8CB6223AF277DACD /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		E7384B6905CACAA3192AC84DF06EEFB6 /* Pods-TestKrux-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TestKrux-dummy.m"; sourceTree = "<group>"; };
-		E87C174DFF025B42D9A7CAB6A143EC28 /* SDKKruxEncapsulation.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDKKruxEncapsulation.debug.xcconfig; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,10 +68,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1E3D4E53346617E57F25AA62570F99D4 /* Frameworks */ = {
+		15581954854B3D3BDAFC7B4BD2FA21E7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2D96D57049CB00180FAA4A3BF97BF28C /* SDKKruxEncapsulation.framework */,
+				7AABB356A5CC294ED120B315F977251B /* SDKKruxEncapsulation.xcframework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -85,7 +87,7 @@
 		6410ACCFAA31B3D50EC966D539FE8EC9 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				B07EB7344ACDEE1B0AE8CADBD35A6A53 /* SDKKruxEncapsulation */,
+				7EF8ACAA6548D12E27BA2D568D3620C4 /* SDKKruxEncapsulation */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -98,13 +100,15 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		989D90573C58D6CB0412AAD1B0590494 /* Pod */ = {
+		7EF8ACAA6548D12E27BA2D568D3620C4 /* SDKKruxEncapsulation */ = {
 			isa = PBXGroup;
 			children = (
-				4F125A52D1FA02C14C379F4AAA2F07E4 /* README.md */,
-				63E86FC72B2ADFCAD5D1166A261C73CB /* SDKKruxEncapsulation.podspec */,
+				15581954854B3D3BDAFC7B4BD2FA21E7 /* Frameworks */,
+				C7D6A2C6737D9A9769D3D65E30CC59B0 /* Pod */,
+				DFBA508C64E76CB1D81E00EC4546B71C /* Support Files */,
 			);
-			name = Pod;
+			name = SDKKruxEncapsulation;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		AC97E0B7D647E784E51C22C0C6F72495 /* Targets Support Files */ = {
@@ -115,25 +119,13 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		B07EB7344ACDEE1B0AE8CADBD35A6A53 /* SDKKruxEncapsulation */ = {
+		C7D6A2C6737D9A9769D3D65E30CC59B0 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				1E3D4E53346617E57F25AA62570F99D4 /* Frameworks */,
-				989D90573C58D6CB0412AAD1B0590494 /* Pod */,
-				B4AC480D34957151BB1A79A8EAB1A925 /* Support Files */,
+				DE33AA56B23ADB7A8CB6223AF277DACD /* README.md */,
+				74C5776B3005BAF286F94DD9DFECA863 /* SDKKruxEncapsulation.podspec */,
 			);
-			name = SDKKruxEncapsulation;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		B4AC480D34957151BB1A79A8EAB1A925 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				E87C174DFF025B42D9A7CAB6A143EC28 /* SDKKruxEncapsulation.debug.xcconfig */,
-				74954D77236D4CAF6E3CC4BDB09370D1 /* SDKKruxEncapsulation.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "TestKrux/Pods/Target Support Files/SDKKruxEncapsulation";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		CF1408CF629C7361332E53B88F7BD30C = {
@@ -153,6 +145,17 @@
 				578452D2E740E91742655AC8F1636D1F /* iOS */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DFBA508C64E76CB1D81E00EC4546B71C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A27F60DC17FAD26765BB09FB7739393C /* SDKKruxEncapsulation-xcframeworks.sh */,
+				AAFBDF5A48BE10CA63A77DC7DB72F7FF /* SDKKruxEncapsulation.debug.xcconfig */,
+				7496821C206AB6957AB05FD38028A101 /* SDKKruxEncapsulation.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "TestKrux/Pods/Target Support Files/SDKKruxEncapsulation";
 			sourceTree = "<group>";
 		};
 		FA0F85061DAE045D664D314B74326907 /* Pods-TestKrux */ = {
@@ -243,6 +246,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		BF02585A49D18B447B9AAE09277FCEA4 /* [CP] Copy XCFrameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/SDKKruxEncapsulation/SDKKruxEncapsulation-xcframeworks-input-files.xcfilelist",
+			);
+			name = "[CP] Copy XCFrameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/SDKKruxEncapsulation/SDKKruxEncapsulation-xcframeworks-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/SDKKruxEncapsulation/SDKKruxEncapsulation-xcframeworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		201A49EC54E564A1B8A6A9FCCBDBF84B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,24 +287,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		15686637CEBC25B8DCD0CF0D09CEF606 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 74954D77236D4CAF6E3CC4BDB09370D1 /* SDKKruxEncapsulation.release.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
 		4BEB18560BA447249BA6C22117BCD5D6 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5D14C81DD34BD697F2FAE81B4159C4F8 /* Pods-TestKrux.release.xcconfig */;
@@ -317,6 +322,24 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5331BAF3966EE08AE9792927B38EB3FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7496821C206AB6957AB05FD38028A101 /* SDKKruxEncapsulation.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
@@ -419,23 +442,6 @@
 			};
 			name = Release;
 		};
-		BED97849AACCFCA201169523F2A02E5D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = E87C174DFF025B42D9A7CAB6A143EC28 /* SDKKruxEncapsulation.debug.xcconfig */;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
 		D299434AB35E7FD6F7921C8EF24742FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -502,6 +508,23 @@
 			};
 			name = Debug;
 		};
+		FA7C9710112AB465C9A57B7BDEEC4D58 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAFBDF5A48BE10CA63A77DC7DB72F7FF /* SDKKruxEncapsulation.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -523,11 +546,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B5B7C4C5F93CBB419F566F281016B0F4 /* Build configuration list for PBXAggregateTarget "SDKKruxEncapsulation" */ = {
+		DFB9BC7C5B423F96EDF0D80940948B14 /* Build configuration list for PBXAggregateTarget "SDKKruxEncapsulation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BED97849AACCFCA201169523F2A02E5D /* Debug */,
-				15686637CEBC25B8DCD0CF0D09CEF606 /* Release */,
+				FA7C9710112AB465C9A57B7BDEEC4D58 /* Debug */,
+				5331BAF3966EE08AE9792927B38EB3FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

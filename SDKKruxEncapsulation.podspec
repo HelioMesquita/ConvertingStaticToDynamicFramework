@@ -8,6 +8,6 @@ Pod::Spec.new do |s|
   s.source           = { :git => 'https://github.com/HelioMesquita/StaticToDynamicFramework.git', :tag => s.version.to_s }
   s.ios.deployment_target = '10.0'
   s.pod_target_xcconfig     = { 'ONLY_ACTIVE_ARCH' => 'YES' }
-  s.vendored_framework = 'SDKKruxEncapsulation.framework'
+  s.vendored_framework = 'SDKKruxEncapsulation.xcframework'
   s.frameworks = 'AdSupport', 'Foundation', 'SystemConfiguration', 'AppTrackingTransparency', 'UIKit'
 end

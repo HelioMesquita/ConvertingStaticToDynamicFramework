@@ -1,6 +1,6 @@
 CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = NO
 CONFIGURATION_BUILD_DIR = ${PODS_CONFIGURATION_BUILD_DIR}/SDKKruxEncapsulation
-FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../.."
+FRAMEWORK_SEARCH_PATHS = $(inherited) "${PODS_ROOT}/../.." "${PODS_XCFRAMEWORKS_BUILD_DIR}/SDKKruxEncapsulation"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 ONLY_ACTIVE_ARCH = YES
 OTHER_LDFLAGS = $(inherited) -framework "AdSupport" -framework "AppTrackingTransparency" -framework "Foundation" -framework "SystemConfiguration" -framework "UIKit"

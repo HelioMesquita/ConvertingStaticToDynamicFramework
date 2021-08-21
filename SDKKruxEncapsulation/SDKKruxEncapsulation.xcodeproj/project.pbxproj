@@ -6,6 +6,20 @@
 	objectVersion = 50;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		FD51D81026D07C0300726248 /* Generator */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = FD51D81126D07C0300726248 /* Build configuration list for PBXAggregateTarget "Generator" */;
+			buildPhases = (
+				FD51D81626D07CAC00726248 /* ShellScript */,
+			);
+			dependencies = (
+			);
+			name = Generator;
+			productName = Generator;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
 		FDE6836C26CF18480070C3FF /* SDKKruxEncapsulation.h in Headers */ = {isa = PBXBuildFile; fileRef = FDE6836A26CF18480070C3FF /* SDKKruxEncapsulation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FDE6837426CF18D30070C3FF /* iOSKruxLibUniversal in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE6837326CF18D30070C3FF /* iOSKruxLibUniversal */; };
@@ -138,6 +152,9 @@
 			attributes = {
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
+					FD51D81026D07C0300726248 = {
+						CreatedOnToolsVersion = 12.2;
+					};
 					FDE6836626CF18480070C3FF = {
 						CreatedOnToolsVersion = 12.2;
 					};
@@ -157,6 +174,7 @@
 			projectRoot = "";
 			targets = (
 				FDE6836626CF18480070C3FF /* SDKKruxEncapsulation */,
+				FD51D81026D07C0300726248 /* Generator */,
 			);
 		};
 /* End PBXProject section */
@@ -171,6 +189,26 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		FD51D81626D07CAC00726248 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "SCHEME_NAME=\"SDKKruxEncapsulation\"\nFRAMEWORK_NAME=\"SDKKruxEncapsulation\"\nSIMULATOR_ARCHIVE_PATH=\"${BUILD_DIR}/${CONFIGURATION}/${FRAMEWORK_NAME}-iphonesimulator.xcarchive\"\nDEVICE_ARCHIVE_PATH=\"${BUILD_DIR}/${CONFIGURATION}/${FRAMEWORK_NAME}-iphoneos.xcarchive\"\nOUTPUT_DIC=\"./xcframework/\"\n# Simulator xcarchieve\nxcodebuild archive \\\n  -scheme ${SCHEME_NAME} \\\n  -archivePath ${SIMULATOR_ARCHIVE_PATH} \\\n  -sdk iphonesimulator \\\n  SKIP_INSTALL=NO\n# Device xcarchieve\nxcodebuild archive \\\n  -scheme ${SCHEME_NAME} \\\n  -archivePath ${DEVICE_ARCHIVE_PATH} \\\n  -sdk iphoneos \\\n  SKIP_INSTALL=NO\n# Clean up old output directory\nrm -rf \"${OUTPUT_DIC}\"\n# Create xcframwork combine of all frameworks\nxcodebuild -create-xcframework \\\n  -framework ${SIMULATOR_ARCHIVE_PATH}/Products/Library/Frameworks/${FRAMEWORK_NAME}.framework \\\n  -framework ${DEVICE_ARCHIVE_PATH}/Products/Library/Frameworks/${FRAMEWORK_NAME}.framework \\\n  -output ${OUTPUT_DIC}/${FRAMEWORK_NAME}.xcframework\n\necho ${OUTPUT_DIC}/${FRAMEWORK_NAME}.xcframework\nmv ${OUTPUT_DIC}/${FRAMEWORK_NAME}.xcframework ../\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FDE6836326CF18480070C3FF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -182,6 +220,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		FD51D81226D07C0300726248 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD51D81326D07C0300726248 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		FDE6836D26CF18480070C3FF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -308,6 +362,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator14.2]" = arm64;
 				INFOPLIST_FILE = SDKKruxEncapsulation/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -337,6 +392,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				"EXCLUDED_ARCHS[sdk=iphonesimulator14.2]" = arm64;
 				INFOPLIST_FILE = SDKKruxEncapsulation/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
@@ -361,6 +417,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FD51D81126D07C0300726248 /* Build configuration list for PBXAggregateTarget "Generator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD51D81226D07C0300726248 /* Debug */,
+				FD51D81326D07C0300726248 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FDE6836126CF18480070C3FF /* Build configuration list for PBXProject "SDKKruxEncapsulation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
