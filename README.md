@@ -17,7 +17,7 @@ Steps to reproduce this example
 5. In build settings add ```"EXCLUDED_ARCHS[sdk=iphonesimulator14.2]" = arm64```
 6. Create a Aggregate Target
     1. Inside Build Phase add Run Script
-    1. Add this script
+    2. Add this script
     ```swift
     SCHEME_NAME="SDKKruxEncapsulation"
     FRAMEWORK_NAME="SDKKruxEncapsulation"
@@ -47,8 +47,8 @@ Steps to reproduce this example
     echo ${OUTPUT_DIC}/${FRAMEWORK_NAME}.xcframework
     mv ${OUTPUT_DIC}/${FRAMEWORK_NAME}.xcframework ../
     ```
-    2. Remember to fix scheme name and framework name to fit your project
-    3. When run, will generate a xcframework at same directory of framework project
+    3. Remember to fix scheme name and framework name to fit your project
+    4. When run, will generate a xcframework at same directory of framework project
 6. Add Framework inside a test project
     1. This will compile, but when run will be missing a library because it came as static
     2. Change the framework to embed without signing
@@ -64,3 +64,5 @@ Articles used to learn about this theme
 - https://developer.apple.com/library/archive/qa/qa1490/_index.html
 - https://medium.com/5-minute-break-while-coding/creating-swift-framework-with-private-objective-c-members-the-good-the-bad-and-the-ugly-4d726386644b
 - https://web.archive.org/web/20200213075206/http:/nsomar.com/modular-framework-creating-and-using-them/
+- https://medium.com/@er.mayursharma14/how-to-create-xcframework-855817f854cf
+
