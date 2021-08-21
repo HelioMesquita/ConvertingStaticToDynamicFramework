@@ -7,7 +7,7 @@ Steps to reproduce this example
 1. Open iOSKruxLibUniversal.framework 
 2. Copy Binary
 3. Copy Headers and let them public
-4. Add other link flags “-all_load”
+4. Add other link flags ```-all_load```
     1. This with fail to compile, because it is missing libraries when compile, then add:
         1. AdSupport
         2. Foundation
@@ -55,7 +55,7 @@ Steps to reproduce this example
     3. There is a sample of Podspec to share your framework
 7. Enjoy :) 
 
-Observation: I opened the binary because I cannot let a public header from static framework  
+Observation: I opened the binary because I cannot let a public header from static framework.
 
 Articles used to learn about this theme  
 - https://medium.com/@hassanahmedkhan/a-noobs-guide-to-creating-a-fat-library-for-ios-bafe8452b84b
